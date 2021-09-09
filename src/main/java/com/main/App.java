@@ -7,8 +7,6 @@ public class App
 {
     public static void main( String[] args ) throws ClassNotFoundException, SQLException
     {
-
-
         Student.controlTable();
         boolean isContinue = true;
         Scanner scan = new Scanner(System.in);

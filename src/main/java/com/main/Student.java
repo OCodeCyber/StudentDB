@@ -111,6 +111,7 @@ public class Student
 	}
 	static Statement st;
 	static Connection con;
+
 	public static void controlTable() throws SQLException, ClassNotFoundException {
 		//2.Step: Registering gsm operator means "registering to our driver(Oracle Driver)"
 			Class.forName("oracle.jdbc.driver.OracleDriver");
@@ -126,17 +127,14 @@ public class Student
 		
 		//5.Step:Start to talk with your friend means "Create SQL Query and execute it"
 		
-		//1. Example:
 		String q2 = "CREATE TABLE students(studentid NUMBER(3),firstname VARCHAR2(20),lastname VARCHAR2(20), average NUMBER(3))";
 		try {
 			ResultSet r2 = st.executeQuery(q2);
 		} catch (Exception e) {
 			
 		}
-		
-		//6.Step: Do some actions according to the result
-		
 
+		//6.Step: Do some actions according to the result
         con.close();
         st.close();
 	}
