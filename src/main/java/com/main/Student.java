@@ -10,7 +10,7 @@ public class Student
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		
 		//3.Step:Call your friend means "establish connection with the database"
-		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:ORCLCDB", "Your username", "your password");
+		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "hr");
 		
 		//4.Step: Create some sentences to tell to your friend means "Create Statement"
 		Statement st = con.createStatement();
@@ -46,7 +46,7 @@ public class Student
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		
 		//3.Step:Call your friend means "establish connection with the database"
-		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:ORCLCDB", "Your username", "your password");
+		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "hr");
 		
 		//4.Step: Create some sentences to tell to your friend means "Create Statement"
 		Statement st = con.createStatement();
@@ -69,7 +69,7 @@ public class Student
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		
 		//3.Step:Call your friend means "establish connection with the database"
-		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:ORCLCDB", "Your username", "your password");
+		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "hr");
 		
 		//4.Step: Create some sentences to tell to your friend means "Create Statement"
 		Statement st = con.createStatement();
@@ -92,7 +92,7 @@ public class Student
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		
 		//3.Step:Call your friend means "establish connection with the database"
-		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:ORCLCDB", "Your username", "your password");
+		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "hr");
 		
 		//4.Step: Create some sentences to tell to your friend means "Create Statement"
 		Statement st = con.createStatement();
@@ -118,7 +118,7 @@ public class Student
 
 		
 		//3.Step:Call your friend means "establish connection with the database"
-			con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:ORCLCDB", "Your username", "your password");
+			con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "hr");
 
 		
 		//4.Step: Create some sentences to tell to your friend means "Create Statement"
